@@ -14,12 +14,20 @@
     <name>ex_springcloud</name>
     <description>聚合管理</description>
    <packaging>pom</packaging>
-
+<dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+    </dependency>
+</dependencies>
     <modules>
-        <module>ex_springcloud-coupon</module>
+        <module>ex_springcloud-common</module>
         <module>ex_springcloud-member</module>
+        <module>ex_springcloud-coupon</module>
         <module>ex_springcloud-order</module>
         <module>ex_springcloud-product</module>
-    <module>ex_springcloud-ware</module>
+       <module>ex_springcloud-ware</module>
+       <module>renren-fast</module>
+       <module>renren-generator</module>
     </modules>
 </project>

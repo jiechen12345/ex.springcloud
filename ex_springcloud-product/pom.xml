@@ -12,12 +12,18 @@
     <artifactId>ex_springcloud-product</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ex_springcloud-product</name>
-    <description>測試商品管理</description>
+    <description>測試商品管理2</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2021.0.4</spring-cloud.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.example.ex_springcloud</groupId>
+            <artifactId>ex_springcloud-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -33,6 +39,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
     <dependencyManagement>
         <dependencies>
             <dependency>

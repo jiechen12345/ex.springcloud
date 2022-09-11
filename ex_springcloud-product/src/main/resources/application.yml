@@ -1,0 +1,14 @@
+ipAddr: 192.168.183.128
+spring:
+  datasource:
+    url: jdbc:mysql://${ipAddr}:3306/springcloud_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 1qaz@WSX
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis-plus:
+  mapperLocations: classpath*:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
