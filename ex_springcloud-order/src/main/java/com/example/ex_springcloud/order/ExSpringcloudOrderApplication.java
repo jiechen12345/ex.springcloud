@@ -1,4 +1,4 @@
-package com.example.ex_springcloudorder.order;
+package com.example.ex_springcloud.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -27,6 +27,7 @@
         <module>ex_springcloud-order</module>
         <module>ex_springcloud-product</module>
        <module>ex_springcloud-ware</module>
+        <module>ex_springcloud-gateway</module>
        <module>renren-fast</module>
        <module>renren-generator</module>
     </modules>
