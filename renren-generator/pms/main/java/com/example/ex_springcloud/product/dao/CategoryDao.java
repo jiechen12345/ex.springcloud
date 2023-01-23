@@ -1,7 +1,7 @@
 package com.example.ex_springcloud.product.dao;
 
-import com.example.ex_springcloud.product.entity.CategoryEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.ex_springcloud.product.entity.CategoryEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

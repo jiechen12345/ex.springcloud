@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Created by JieChen on 2022/9/13.
  */
-@FeignClient("coupon") //調用coupon服務 application.yㄙml註冊名
+@FeignClient("coupon") //調用coupon服務 application.yml註冊名
 public interface CouponFeignService {
 
     @RequestMapping(value = "/coupon/coupon/member/list", method = RequestMethod.GET)

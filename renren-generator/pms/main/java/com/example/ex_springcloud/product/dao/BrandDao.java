@@ -1,7 +1,7 @@
 package com.example.ex_springcloud.product.dao;
 
-import com.example.ex_springcloud.product.entity.BrandEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.ex_springcloud.product.entity.BrandEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
