@@ -5,7 +5,6 @@ import com.example.common.utils.R;
 import com.example.ex_springcloud.product.entity.AttrEntity;
 import com.example.ex_springcloud.product.service.AttrService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.Map;

@@ -9,15 +9,15 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-      config:
-        enabled: true
-        group: DEFAULT_GROUP
-        server-addr: 127.0.0.1:8848
-        file-extension:  yml
-
-
-  application:
-      name: coupon
+#      config:
+#        enabled: true
+#        group: DEFAULT_GROUP
+#        server-addr: 127.0.0.1:8848
+#        file-extension:  yml
+#
+#
+#  application:
+#      name: coupon
 
 server:
   tomcat:
