@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test_route
+          uri: http://www.google.com
+          predicates:
+            - Query=url,gg
+        - id: test2_route
+          uri: http://www.yahoo.com
+          predicates:
+            - Query=trun,yy
