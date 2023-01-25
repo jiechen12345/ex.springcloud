@@ -1,33 +1,25 @@
-ipAddr: 192.168.183.128
-spring:
-  datasource:
-    url: jdbc:mysql://${ipAddr}:3306/springcloud_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: 1qaz@WSX
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-#      config:
-#        enabled: true
-#        group: DEFAULT_GROUP
+#ipAddr: 192.168.183.128
+#spring:
+#  datasource:
+#    url: jdbc:mysql://${ipAddr}:3306/springcloud_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: 1qaz@WSX
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  cloud:
+#    nacos:
+#      discovery:
 #        server-addr: 127.0.0.1:8848
-#        file-extension:  yml
 #
 #
-#  application:
-#      name: coupon
-
-server:
-  tomcat:
-    uri-encoding: UTF-8
-    max-threads: 1000
-    min-spare-threads: 30
-  port: 7000
-
-mybatis-plus:
-  mapperLocations: classpath*:mapper/**/*.xml
-  global-config:
-    db-config:
-      id-type: auto
+#server:
+#  tomcat:
+#    uri-encoding: UTF-8
+#    max-threads: 1000
+#    min-spare-threads: 30
+#  port: 7000
+#
+#mybatis-plus:
+#  mapperLocations: classpath*:mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
